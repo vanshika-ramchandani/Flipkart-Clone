@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f3f6e6;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div{
+    font-size: 1rem;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.search{
+    height: 45px;
+    width: 850px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F0F5FF;
+    color: #777A7E;
+}
+
+.search-btn{
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.search input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent; 
+    font-size: 1rem;
+    margin-left: 12px;
+}
+
+.header{
+    gap: 20px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#login{
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#login:hover {
+    background-color: #2874f0; 
+    color: white; 
+}
+
+#login:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.categories{
+    background-color: white;
+    margin: 15px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.categories div{ 
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+    justify-content: center; 
+    margin: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.categories img{
+    padding-bottom: 5px;
+    width: 70px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.products{
+    margin: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+.products h2{
+    padding: 30px;
+}
+
+.product-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product{
+    text-align: center;
+}
+
+.product span{
+    font-weight: bold;
+}
+
+.product img{
+    height: 150px;
+    width: auto;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.product p {
+    margin-bottom: 5px;
+}
+
+.offer-img{
+    margin: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.offer-img img{
+    width: 483px;
+    height: auto;
+    cursor: pointer;
+}

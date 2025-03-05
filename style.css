@@ -18,7 +18,7 @@ header{
 }
 
 div{
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .logo{
@@ -154,7 +154,7 @@ div{
 }
 
 .offer-img img{
-    width: 483px;
+    width: 33%;
     height: auto;
     cursor: pointer;
 }
